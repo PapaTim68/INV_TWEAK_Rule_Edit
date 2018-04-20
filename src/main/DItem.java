@@ -17,6 +17,11 @@ public class DItem {
         this.ModClass = ModClass;
     }
 
+    @Override
+    public String toString() {
+        return " "+ Name + "," + ID + "," + isBlock + "," + Mod +"," + ModClass + " ";
+    }
+
     public String getName() {
         return Name;
     }
